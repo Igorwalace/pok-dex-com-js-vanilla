@@ -17,6 +17,7 @@ header h1{
     border-bottom: 3px solid white;
     padding-bottom: 20px;
     font-size: 40px;
+    cursor: pointer;
 }
 .box-pesquisar{
     padding: 0;
@@ -61,17 +62,17 @@ section {
     background-color: #274e76;
     border-radius: 12px;
     border: 4px solid #3a5b81;
-    padding: 10px
+    padding: 10px;
+    animation: seMexer 3s infinite;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 .box-pokemon-single img{
     min-width: 190px;
     border-bottom: 4px solid #78c9f0;
     background-image: linear-gradient(#19242c, #637a8a);
     border-radius: 50%;
-    animation: seMexer 2s infinite;
-    position: relative;
-    top: 0;
-    left: 0;
 }
 
 @keyframes seMexer{
