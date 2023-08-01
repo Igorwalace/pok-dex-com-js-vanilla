@@ -8,21 +8,6 @@ body{
     height: 100%;
     background-position: center;
     background-image: url(imagens/bg2.jpg);
-    animation: animacaoBack background 3s infinite;
-    position: relative;
-    top:0;
-    left:0;
-}
-@keyFrames animacaoBack{
-    0%{
-       top:0px;
-    }
-    50%{
-       top: 20px;
-    }
-    100%{
-       top: 0px;
-    }
 }
 header{
     text-align: center;
