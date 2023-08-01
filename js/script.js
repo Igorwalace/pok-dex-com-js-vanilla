@@ -28,7 +28,6 @@
                         <div class="box-pokemon-single">
                         <img src="`+link.imagem+`" alt="">
                         <h1>`+link.nome+`</h1>
-                        <h1>`+numero+`</h1>
                         </div><!--box-pokemon-single-->
                         `
                         })
