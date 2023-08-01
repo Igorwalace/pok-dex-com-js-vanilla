@@ -8,7 +8,7 @@ body{
     height: 100%;
     background-position: center;
     background-image: url(imagens/bg2.jpg);
-    animation: animacaoBack 3s infinite;
+    animation: animacaoBack background 3s infinite;
     position: relative;
     top:0;
     left:0;
